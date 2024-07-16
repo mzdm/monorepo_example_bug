@@ -1,3 +1,4 @@
 .dart_tool/
 .idea/
 /melos_monorepo_example_bug.iml
+pubspec_overrides.yaml

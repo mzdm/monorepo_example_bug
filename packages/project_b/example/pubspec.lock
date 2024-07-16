@@ -139,6 +139,20 @@ packages:
       url: "https://pub.dev"
     source: hosted
     version: "1.9.0"
+  project_a:
+    dependency: "direct overridden"
+    description:
+      path: "../../package_a"
+      relative: true
+    source: path
+    version: "0.0.1"
+  project_b:
+    dependency: "direct main"
+    description:
+      path: ".."
+      relative: true
+    source: path
+    version: "0.0.1"
   sky_engine:
     dependency: transitive
     description: flutter
@@ -209,5 +223,5 @@ packages:
     source: hosted
     version: "14.2.1"
 sdks:
-  dart: ">=3.4.3 <4.0.0"
+  dart: ">=3.3.0 <4.0.0"
   flutter: ">=3.18.0-18.0.pre.54"
